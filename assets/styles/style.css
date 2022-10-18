@@ -4,30 +4,31 @@
 
 
 body::-webkit-scrollbar {
-    width: 10px;              
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: black;      
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: whitesmoke;   
-    border-radius: 5px;       
-    border: 3px solid black; 
-  }
-
-
-  /* NUMBER */ 
-
-
-  input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
+    width: 10px;
 }
-input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+
+/* NUMBER */
+
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
 
 }
 
@@ -199,7 +200,7 @@ main {
 /* SECTION */
 
 section {
-   padding-top: 80px;
+    padding-top: 80px;
     width: 100%;
     height: 100%;
     padding-bottom: 50px;
@@ -455,7 +456,7 @@ section {
 }
 
 
-/* SECTION 3 */ 
+/* SECTION 3 */
 
 
 .container-section-3 {
@@ -477,18 +478,18 @@ section {
     padding-top: 50px;
 }
 
-.img-cars-banner  img{
+.img-cars-banner img {
     width: 100%;
     transition: 0.3s;
 
 }
 
-.img-cars-banner  img:hover {
+.img-cars-banner img:hover {
     opacity: 0.6;
 }
 
 
-/* SECTION 4 */ 
+/* SECTION 4 */
 
 .container-section-4 {
     width: 100%;
@@ -515,14 +516,14 @@ section {
 }
 
 .video {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 
 }
 
-.video img{
-transition: 0.4s;
+.video img {
+    transition: 0.4s;
     width: 1200px;
 }
 
@@ -546,8 +547,9 @@ transition: 0.4s;
     text-align: right;
     color: white;
 }
-.contactus h1{
- font-size: 60px;
+
+.contactus h1 {
+    font-size: 60px;
 }
 
 .contactus p {
@@ -555,17 +557,19 @@ transition: 0.4s;
     font-weight: 300;
 }
 
-/* FORM */ 
+/* FORM */
 
 .nome-email {
     display: flex;
     gap: 50px;
 }
+
 input {
+    color: white;
     background: transparent;
-    border:none;
+    border: none;
     border-bottom: 1px solid gray;
- 
+
 }
 
 .telephone-country {
@@ -578,13 +582,13 @@ input {
     margin-top: 50px;
     display: flex;
     gap: 50px;
-    
-    
-    
+
+
+
 }
 
 .message input {
-    border-bottom:1px solid gray !important;
+    border-bottom: 1px solid gray !important;
     width: 390px;
 
 }
@@ -617,3 +621,146 @@ input {
     width: 100%;
     height: 300px;
 }
+
+
+/* footer */
+footer {
+    background-color: #161616;
+    width: 100%;
+    height: 100%;
+}
+
+.container-footer {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prime-car h1 {
+    transition: 0.3s;
+    cursor: default;
+    font-size: 80px;
+}
+
+.prime-car h1:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+
+#ul-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#ul-footer li a {
+    color: gray;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#ul-footer li a:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+
+.lista-footer h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.lista-footer h1:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+
+
+/* LISTA DOIS */
+
+#ul-footer-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#ul-footer-2 li a {
+    color: gray;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#ul-footer-2 li a:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+
+.lista2-footer h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.lista2-footer h1:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+/* email */
+
+.email-us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-us h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.email-us h1:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+.email-us p {
+    color: gray;
+}
+
+.call h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+
+.call h1:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+.number {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+
+    width: 100%;
+}
+
+.redes-sociais img {
+    cursor: pointer;
+    width: 30px;
+}
+
