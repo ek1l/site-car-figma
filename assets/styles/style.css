@@ -53,6 +53,11 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
 a {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -524,7 +529,8 @@ section {
 
 .video img {
     transition: 0.4s;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .video img:hover {
@@ -634,6 +640,7 @@ footer {
     color: white;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 60px;
 }
 
 .prime-car h1 {

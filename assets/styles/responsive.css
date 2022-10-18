@@ -1,0 +1,241 @@
+@import url(./style.css);
+
+
+
+
+@media (max-width: 1200px) {
+
+    .texto-do-lado  {
+        text-align: center;
+    }
+
+    .container-section-1 {
+        display: flex;
+        padding: 50px;
+        gap: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .imagem-do-lado {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .container-footer {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .container-section-5 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+    }
+
+    form {
+
+        width: 100%;
+    }
+
+
+    input {
+        width: 100%;
+        padding: 30px;
+        color: white;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid gray;
+    
+    }
+
+    .buttonn button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 3px;
+        padding: 15px 40px;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        
+    }
+
+    .redes-sociais {
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+     }
+    
+
+
+}
+
+
+@media (max-width: 780px) {
+    .imagem-do-lado img {
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 501px) {
+    .imagem-do-lado img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 850px) {
+ .flex-letras {
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+ }
+
+ .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+ }
+}
+
+
+
+
+@media (max-width: 550px)  {
+
+
+.texto-acima h1{
+
+     font-size: 30px;
+     
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+
+.titulo-acima h1{
+    font-size: 25px;
+}
+
+.texto-video h1{
+    font-size: 30px;
+
+}
+
+.contactus {
+    text-align: center;
+}
+
+.contactus h1{
+    font-size: 40px;
+
+}
+
+.prime-car h1{
+    font-size: 50px;
+
+}
+
+}
+
+
+@media (max-width: 410px) {
+    .imagem-do-lado img {
+        width: 300px;
+    }
+} 
+
+
+@media (max-width: 1180px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+
+
+    .escrita {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: 5px;
+        height: 100vh;
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        max-width: 490px;
+        color: white;
+    
+    
+    }
+
+    .escrita h1 {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (max-width: 400px)  {
+    .escrita {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        bottom: 100px;
+        
+        height: 100vh;
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        max-width: 490px;
+        color: white;
+    
+    
+    }
+
+    .escrita h1 {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:660px) {
+
+}
