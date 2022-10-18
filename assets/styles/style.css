@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Poppins:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+a {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+
+header {
+    width: 100%;
+
+    margin-top: 50px;
+    position: absolute;
+    z-index: 99999999;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+}
+
+nav ul {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    transition: 0.4s;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+.logo a {
+    color: white;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+.logo a:hover {
+    color: rgba(255, 255, 255, 0.281);
+}
+
+
+.boton-contact button {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 6px;
+
+}
+
+.boton-contact button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Main - BANNER */
+
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.img-banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.img-banner img {
+    width: 100%;
+    height: 790px;
+    object-fit: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.escrita {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 490px;
+    color: white;
+
+
+}
+
+.escrita h1 {
+    font-size: 50px;
+}
+
+.escrita p {
+    font-size: 15px;
+
+    width: 300px;
+}
+
+.escrita button {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 6px;
+}
+
+.escrita button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* SECTION */
+
+section {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+#backgrounnd {
+    background-color: black;
+}
+
+#backgrounnd-2 {
+    background-color: #1A191A;
+    padding-top: 100px;
+}
+
+
+.container-section-1 {
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.texto-do-lado p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: white;
+}
+
+.imagem-do-lado img {
+    max-width: 700px;
+    transition: 0.4s;
+}
+
+.imagem-do-lado img:hover {
+    opacity: 0.8;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+/* SECTION 2 */
+
+
+.container-section-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.cards {
+    padding-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.info-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+
+
+.info-card p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.info-card span {
+    text-decoration: underline;
+}
+
+.texto-acima {
+    color: white;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.texto-acima p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+
+.texto-acima h1 {
+    font-size: 50px;
+}
+
+
+.img-location img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 70px;
+}
+
+.card-1 {
+
+    border: none;
+    width: 250px;
+    border-radius: 30px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 50px;
+    background: #0D7C61;
+
+
+}
+
+/* CARD 2 */
+
+
+.card-2 {
+
+    border: none;
+    width: 250px;
+    border-radius: 30px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 50px;
+    background: red;
+}
+
+
+.img-location-2 img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 80px;
+}
+
+
+.info-card-2 {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.info-card-2 h2 {
+    font-size: 20px;
+    width: 160px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+
+
+.info-card-2 p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
+/* Card 3 */
+
+
+.card-3 {
+
+    border: none;
+    width: 250px;
+    border-radius: 30px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 50px;
+    background: blue;
+}
+
+
+.img-location-3 img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 80px;
+}
+
+
+.info-card-3 {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.info-card-3 h2 {
+    font-size: 20px;
+    width: 200px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+
+
+.info-card-3 p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
