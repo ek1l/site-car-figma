@@ -9,25 +9,34 @@
     <title>Prime Car</title>
   </head>
   <body>
-    <header>
-      <nav>
+
+
+
+    <header class="header1">
+      <nav id="nav" class="itens">
+
+        <button id="btnmobile">&equiv;
+      
+        </button>
         <div class="logo">
-          <a href="#">PRIME CAR</a>
+          <a href="home">PRIME CAR</a>
         </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Benefits</a></li>
-          <li><a href="#">Cars </a></li>
+
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#cars">Cars </a></li>
+          <div class="boton-contact">
+            <a href="#contact"><button>Contact Us</button></a>
+          </div>
         </ul>
-        <div class="boton-contact">
-          <button>Contact Us</button>
-        </div>
+
       </nav>
     </header>
 
     <main>
-      
+
       <div class="container">
         <div class="escrita">
           <h1>MORE ECONOMY, SAME SPEED</h1>
@@ -43,7 +52,7 @@
       </div>
 
       <section id="backgrounnd">
-        <div class="about">
+        <div id="about" class="about">
           <h1>ABOUT US</h1>
         </div>
         <div class="container-section-1">
@@ -77,7 +86,7 @@
 
       <section id="backgrounnd-2">
         <div class="container-section-2">
-          <div class="texto-acima">
+          <div id="benefits" class="texto-acima">
             <h1>ALL THE BENEFITS YOU WILL GET WHEN YOU SHOP WITH US</h1>
             <p>
               Take advantage of everything you can have now by buying your new
@@ -127,7 +136,7 @@
 
       <section id="backgrounnd-3">
         <div class="container-section-3">
-          <div class="titulo-acima">
+          <div id="cars" class="titulo-acima">
             <h1>THE CARS THAT ARE HOT RIGHT NOW</h1>
             <p>Buy yours and be the most stylish in the neighborhood</p>
           </div>
@@ -156,7 +165,7 @@
       </section>
 
 
-      <section id="backgrounnd-3">
+      <section id="contact" id="backgrounnd-3">
         <div class="container-section-5">
           <div class="contactus">
             <h1>CONTACT US</h1>
@@ -239,4 +248,5 @@
       </div>
     </footer>
   </body>
+  <script src="./assets/scripts/script.js"></script>
 </html>
